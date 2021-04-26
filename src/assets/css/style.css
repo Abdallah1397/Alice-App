@@ -15,7 +15,7 @@
     color: #5F473D;
 }
 .navContainer{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .active{
     color: #BA8726;

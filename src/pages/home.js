@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getAllCategoriesRequest } from "../store/actions/categories";
 import cover from "../assets/images/covers/Capture.PNG";
-import MostWantedSlider from '../component/Sliders/productslider'
+import MostWork from '../component/Sliders/workSlider';
 const Home = ({ categories, getCategories }) => {
   useEffect(() => {
     getCategories();
@@ -40,8 +40,8 @@ const Home = ({ categories, getCategories }) => {
       </div>
       </section>
       <div className="row justify-content-center mt-5">
-        <h3 className="mostWantedHeader"> - MOST WANTED - </h3>
-        <MostWantedSlider />       
+        <h3 className="mostWantedHeader"> - NEW COLLECTION - </h3>
+        <MostWork />       
       </div>
       </div>
     </div>

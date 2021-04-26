@@ -41,7 +41,7 @@ const MostWantedSlider = () => {
           },
         },
         {
-          breakpoint: 300,
+          breakpoint: 400,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

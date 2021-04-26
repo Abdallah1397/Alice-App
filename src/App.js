@@ -7,10 +7,12 @@ import { Provider } from "react-redux";
 import reducers from "./store/reducers";
 import rootSaga from "./store/sagas";
 import './assets/css/style.css';
+import './assets/css/base.css';
 import NavBar from "./component/navbar/navbar";
 import Footer from "./component/footer/footer";
 import Home from "./pages/home";
 import About from "./pages/about";
+import OurWork from './pages/ourWork';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
@@ -25,6 +27,7 @@ function App() {
         <Router>
           <NavBar />
           <Route exact path="/" component={Home} />
+          <Route exact path="/work" component={OurWork} />
           <Route exact path="/about" component={About} />
 
           <Footer />
