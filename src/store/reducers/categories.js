@@ -11,7 +11,7 @@ export default function allCategories(state=INITAL_STATE,action){
         case Types.GET_ALL_CATEGORIES_SUCCESS:{
             return{
                 ...state,
-                categories:payload.data,
+                categories:payload.data.category,
                 loading:false,
             };
         }

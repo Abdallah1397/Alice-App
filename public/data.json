@@ -1,0 +1,441 @@
+{
+    "category":[
+    {
+        "id":4,
+        "title":"Rings",
+        "image":"/gallery/rings.jpg"
+    
+    },
+    {
+        "id":2,
+        "title":"Braceletes",
+        "image":"/gallery/armand.jpg"
+
+    },{
+        "id":1,
+        "title":"Earrings",
+        "image":"/gallery/earrings.jpg"
+  
+    },{
+        "id":3,
+        "title":"Necklaees",
+        "image":"/gallery/halsband.jpg"
+  
+    }
+],
+"bestsales":[
+    {
+        "id":1,
+        "title":"Necklaees",
+        "image":"/gallery/bestsales/9.jpg"
+  
+    },
+    {
+        "id":2,
+        "title":"Necklaees",
+        "image":"/gallery/bestsales/5.jpg"
+  
+    },
+    {
+        "id":3,
+        "title":"Necklaees",
+        "image":"/gallery/bestsales/1.jpg"
+  
+    }
+    , {
+        "id":3,
+        "title":"Necklaees",
+        "image":"/gallery/bestsales/4.jpg"
+  
+    }
+],
+"images": [{
+    "id": 1,
+    "image": "/gallery/Earrings/ear1.jpg",
+    "title":"title1",
+    "categories_id":1,
+    "bestSales_id":1
+},
+{
+    "id": 2,
+    "image": "/gallery/Earrings/ear2.jpg",
+    "title":"title2",
+    "categories_id":1
+    
+},
+{
+    "id": 3,
+    "image": "/gallery/Earrings/ear3.jpg",
+    "title":"title3",
+    "categories_id":1
+},
+{
+    "id": 4,
+    "image": "/gallery/Earrings/ear4.jpg",
+    "title":"titl4",
+    "categories_id":1
+},
+{
+    "id": 5,
+    "image": "/gallery/Earrings/ear5.jpg",
+    "title":"title5",
+    "categories_id":1
+},
+{
+    "id": 6,
+    "image": "/gallery/Earrings/ear6.jpg",
+    "title":"title6",
+    "categories_id":1
+
+},
+{
+    "id": 7,
+    "image": "/gallery/Earrings/ear7.jpg",
+    "title":"title7",
+    "categories_id":1
+},
+{
+    "id": 8,
+    "image": "/gallery/Earrings/ear8.jpg",
+    "title":"title8",
+    "categories_id":1
+},{
+    "id": 9,
+    "image": "/gallery/Earrings/ear9.jpg",
+    "title":"title9",
+    "categories_id":1
+},
+{
+    "id": 10,
+    "image": "/gallery/Earrings/ear10.jpg",
+    "title":"title10",
+    "categories_id":1,
+    "bestSales_id":1
+
+    
+},
+{
+    "id": 11,
+    "image": "/gallery/Earrings/ear11.jpg",
+    "title":"title11",
+    "categories_id":1
+},
+{
+    "id": 12,
+    "image": "/gallery/Earrings/ear12.jpg",
+    "title":"title12",
+    "categories_id":1,
+    "bestSales_id":1
+
+},
+{
+    "id": 13,
+    "image": "/gallery/Earrings/ear13.jpg",
+    "title":"title13",
+    "categories_id":1
+},
+{
+    "id": 14,
+    "image": "/gallery/Earrings/ear14.jpg",
+    "title":"title14",
+    "categories_id":1
+
+},
+{
+    "id": 15,
+    "image": "/gallery/Earrings/ear15.jpg",
+    "title":"title15",
+    "categories_id":1
+},
+{
+    "id": 16,
+    "image": "/gallery/Earrings/ear16.jpg",
+    "title":"title16",
+    "categories_id":1
+},{
+    "id": 17,
+    "image": "/gallery/Earrings/ear17.jpg",
+    "title":"title17",
+    "categories_id":1
+},
+{
+    "id": 18,
+    "image": "/gallery/Earrings/ear18.jpg",
+    "title":"title18",
+    "categories_id":1
+    
+},
+{
+    "id": 19,
+    "image": "/gallery/Earrings/ear19.jpg",
+    "title":"title19",
+    "categories_id":1
+},
+{
+    "id": 20,
+    "image": "/gallery/Earrings/ear20.jpg",
+    "title":"title20",
+    "categories_id":1
+},
+{
+    "id": 21,
+    "image": "/gallery/Earrings/ear21.jpg",
+    "title":"Title",
+    "categories_id":1
+},
+{
+    "id": 22,
+    "image": "/gallery/Earrings/ear22.jpg",
+    "title":"Title",
+    "categories_id":1
+
+},
+{
+    "id": 23,
+    "image": "/gallery/Earrings/ear23.jpg",
+    "title":"title23",
+    "categories_id":1
+},
+{
+    "id": 24,
+    "image": "/gallery/Armand/arm1.jpg",
+    "title":"title24",
+    "categories_id":2
+},
+{
+    "id": 25,
+    "image": "/gallery/Armand/arm2.jpg",
+    "title":"title25",
+    "categories_id":2
+},
+{
+    "id": 26,
+    "image": "/gallery/Armand/arm3.jpg",
+    "title":"title26",
+    "categories_id":2,
+    "bestSales_id":1
+
+    
+},
+{
+    "id": 27,
+    "image": "/gallery/Armand/arm4.jpg",
+    "title":"title27",
+    "categories_id":2
+},
+{
+    "id": 28,
+    "image": "/gallery/Armand/arm5.jpg",
+    "title":"title28",
+    "categories_id":2
+},
+{
+    "id": 29,
+    "image": "/gallery/Armand/arm6.jpg",
+    "title":"title29",
+    "categories_id":2,
+    "bestSales_id":1
+
+},
+{
+    "id": 30,
+    "image": "/gallery/Armand/arm7.jpg",
+    "title":"title30",
+    "categories_id":2
+
+},
+{
+    "id": 31,
+    "image": "/gallery/Armand/arm8.jpg",
+    "title":"title31",
+    "categories_id":2,
+    "bestSales_id":1
+
+},
+{
+    "id": 32,
+    "image": "/gallery/Armand/arm9.jpg",
+    "title":"title32",
+    "categories_id":2
+},
+{
+    "id":33,
+    "image": "/gallery/Armand/arm10.jpg",
+    "title":"title33",
+    "categories_id":2
+},
+{
+    "id": 34,
+    "image": "/gallery/Armand/arm11.jpg",
+    "title":"title34",
+    "categories_id":2
+    
+},
+{
+    "id": 35,
+    "image": "/gallery/Armand/arm12.jpg",
+    "title":"title35",
+    "categories_id":2
+},
+{
+    "id": 36,
+    "image": "/gallery/Armand/arm13.jpg",
+    "title":"titl36",
+    "categories_id":2
+},
+{
+    "id": 37,
+    "image": "/gallery/Armand/arm14.jpg",
+    "title":"title37",
+    "categories_id":2
+},
+{
+    "id": 38,
+    "image": "/gallery/Armand/arm15.jpg",
+    "title":"title38",
+    "categories_id":2
+
+},
+{
+    "id": 39,
+    "image": "/gallery/Armand/arm16.jpg",
+    "title":"title39",
+    "categories_id":2
+},
+{
+    "id": 40,
+    "image": "/gallery/Necklaces/neck1.jpg",
+    "title":"title40",
+    "categories_id":3
+},{
+    "id": 41,
+    "image": "/gallery/Necklaces/neck1.jpg",
+    "title":"title41",
+    "categories_id":3
+},
+{
+    "id": 42,
+    "image": "/gallery/Necklaces/neck2.jpg",
+    "title":"title42",
+    "categories_id":3
+    
+},
+{
+    "id": 43,
+    "image": "/gallery/Necklaces/neck3.jpg",
+    "title":"title43",
+    "categories_id":3
+},
+{
+    "id": 44,
+    "image": "/gallery/Necklaces/neck4.jpg",
+    "title":"title44",
+    "categories_id":3
+},
+{
+    "id": 45,
+    "image": "/gallery/Necklaces/neck5.jpg",
+    "title":"title45",
+    "categories_id":3
+},
+{
+    "id": 46,
+    "image": "/gallery/Necklaces/neck6.jpg",
+    "title":"title46",
+    "categories_id":3,
+    "bestSales_id":1
+
+
+},
+{
+    "id": 47,
+    "image": "/gallery/Necklaces/neck7.jpg",
+    "title":"title47",
+    "categories_id":3
+},
+{
+    "id": 48,
+    "image": "/gallery/Necklaces/neck8.jpg",
+    "title":"title48",
+    "categories_id":3,
+    "bestSales_id":1
+
+},{
+    "id": 49,
+    "image": "/gallery/Necklaces/neck9.jpg",
+    "title":"title49",
+    "categories_id":3,
+    "bestSales_id":1
+
+},
+{
+    "id": 50,
+    "image": "/gallery/Necklaces/neck10.jpg",
+    "title":"title50",
+    "categories_id":3
+    
+},
+{
+    "id": 51,
+    "image": "/gallery/Necklaces/neck11.jpg",
+    "title":"title51",
+    "categories_id":3
+},
+{
+    "id": 52,
+    "image": "/gallery/Necklaces/neck12.jpg",
+    "title":"title52",
+    "categories_id":3
+},
+{
+    "id": 53,
+    "image": "/gallery/Necklaces/neck13.jpg",
+    "title":"title53",
+    "categories_id":3
+},
+{
+    "id": 54,
+    "image": "/gallery/Necklaces/neck14.jpg",
+    "title":"title54",
+    "categories_id":3
+
+},
+{
+    "id": 55,
+    "image": "/gallery/Necklaces/neck15.jpg",
+    "title":"title55",
+    "categories_id":3
+},
+{
+    "id": 56,
+    "image": "/gallery/Necklaces/neck16.jpg",
+    "title":"title56",
+    "categories_id":3
+},
+{
+    "id": 57,
+    "image": "/gallery/Necklaces/neck17.jpg",
+    "title":"title57",
+    "categories_id":3
+},
+{
+    "id": 58,
+    "image": "/gallery/Necklaces/neck18.jpg",
+    "title":"title58",
+    "categories_id":3
+    
+},
+{
+    "id": 59,
+    "image": "/gallery/Necklaces/neck19.jpg",
+    "title":"title59",
+    "categories_id":3
+},
+{
+    "id": 60,
+    "image": "/gallery/Necklaces/neck20.jpg",
+    "title":"title60",
+    "categories_id":3
+}
+]
+}

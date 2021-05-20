@@ -1,0 +1,16 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variable';
+// banner => cover image for any page 
+.about-banner{
+    min-height: 65vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    object-fit: contain;
+    @include atSmallestScreen{
+        min-height: 50vh;
+    }
+    @include atSmallestScreen{
+        min-height: 20vh;
+    }
+}

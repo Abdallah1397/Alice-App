@@ -1,5 +1,6 @@
 import axios from "axios";
 
+// data.json as endpoints
 export const getCategory=()=>{
-    return axios.get("http://localhost:3000/category");
+    return axios.get("./data.json");
 };

@@ -1,5 +1,5 @@
 import Types from '../types/categories';
-
+// Actions File => function to return actions 
 export const getAllCategoriesRequest=()=>({
     type:Types.GET_ALL_CATEGORIES_REQUEST,
 });
