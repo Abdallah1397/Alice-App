@@ -23,6 +23,7 @@ const Home = ({ categories, getCategories,bestsales,getBestSales }) => {
       </div>
     );
   });
+  console.log(categories,"home");
 
   // BestSales 
   const bestSalesDisplay = bestsales.map((item) => {

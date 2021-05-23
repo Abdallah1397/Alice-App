@@ -7,6 +7,7 @@ function* allCategories(){
     yield put(actions.setLoading(true));
     try{
         const result =yield call(api.getCategory);
+        console.log(result,"result");
         yield put(actions.getAllCategoriesSuccess(result));
     }catch(error){
         yield put(actions.getAllCategoriesFail());

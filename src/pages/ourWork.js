@@ -1,29 +1,45 @@
-import React from "react";
+import React,{useEffect} from "react";
+import {connect} from "react-redux"
+import {getOurWorkRequest} from '../store/actions/ourwork';
 import cover from "../assets/images/covers/jtv.jpg";
-import MostWork from '../component/Sliders/workSlider';
-const OurWork = () => {
+import Banner from "../component/Banner/Banner";
+import MostWork from "../component/Sliders/workSlider";
+import Title from "../component/Title/Title";
+import Hero from "../component/Hero/hero";
+import ObjectDetail from "../component/ObjectDetails/ObjectDetail";
+// OurWork component that returned the all images
+const OurWork = ({ourwork,getOurWork}) => {
+  useEffect(()=>{
+    getOurWork();
+  },[]);
+  const displayAllWork=ourwork.map(item=>{
+    return(
+      <div className="col-md-4 col-12 mt-md-5">
+      <ObjectDetail image={item.image} key={item.id} />
+      </div>
+    )
+  })
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <img src={cover} className="col-12" />
-      </div>
-      <div className="container mt-5 mb-5">
-        <div className="row justify-content-center">
-          <button className="col-5  p-sm-3"> FIND MORE CATEGORIES </button>
-          <input
-            className="col-5 ml-1 p-sm-3"
-            type="search"
-            placeholder="SEARCH MORE CATEGORIES"
-          />
-        </div>
-        <div className="row mt-5 justify-content-center">
-          <h4> - NEW COLLECTION -</h4>
-        </div>
-        <div className="row">
-            <MostWork/>
-        </div>
-      </div>
+    <div>
+      <Banner image={cover} />
+      <Title
+        title="OUR Work"
+      />
+      
+      <div className="container">
+      <div className="row">{displayAllWork}</div>
+    </div>
+      <Hero
+        title="Hurry up to receive all new"
+        showButton={true}
+        />
     </div>
   );
 };
-export default OurWork;
+const mapSateToProps=(state)=>({
+  ourwork:state.ourWork.ourWork,
+});
+const mapDispatchToProps={
+  getOurWork:getOurWorkRequest,
+};
+export default connect(mapSateToProps,mapDispatchToProps)(OurWork);
