@@ -1,41 +1,29 @@
 import React from "react";
-import aboutCover from "../assets/images/covers/about.jpg";
+import aboutCover from "../assets/images/covers/coverJewelry.png";
 import aboutUs from "../assets/images/covers/about1.jpg";
+import Banner from "../component/Banner/Banner";
 import AboutSlider from '../component/Sliders/aboutSlider';
+import Title from "../component/Title/Title";
+import Hero from "../component/Hero/hero";
+import Content from "../component/Content/content";
+import Condtions from "../component/Condttions/condtiond";
 const About = () => {
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <img className="col-12" src={aboutCover} />
-      </div>
-      <div className="container">
-        <div className="row justify-content-center mt-5">
-          <h3>- ABOUT US -</h3>
-        </div>
-        <div className="row mb-4">
-          <div className="col-md-6 mt-5">
-            <h4 className="mt-5">Who We Are?</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut
-              tellus ante. Nam suscipit urna risus, fermentum commodo ipsum
-              porta id.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              imperdiet libero id nisi euismod, sed porta est consectetur.
-              Vestibulum auctor felis eget orci semper vestibulum. Pellentesque
-              ultricies nibh gravida, accumsan libero luctus, molestie nunc.
-            </p>
-          </div>
-          <div className="col-md-6 mt-5">
-              <img className="col-12" src={aboutUs}/>
-          </div>
-        </div>
-        <div className="row justify-content-center mt-5">
-          <h3>- OUR CUSTOMERS -</h3>
-        </div>
-        <AboutSlider />
-      </div>
+    <div >
+      <Banner image={aboutCover} /> 
+      <Content title="Who We Are"
+      topic="We believe that beauty and confidence come from within. What you wear
+      on the outside is just a way to add to that beauty and confidence and
+      to express who you really are. We go to work every day with influences
+      from all over the world to help everyone have access to this boost of
+      self-confidence and shine with their very own style. Safira's destiny
+      is a reason to be and a reason to go to work every day. If selling
+      “need it now” jewellery is what we do, our purpose is why we do it. So
+      our destination is not necessarily where we are today, but a guiding
+      star for where we want to go." />
+      <Title title="You Can Order"/>
+      <Condtions />
+      <Hero title="Alice Accessories"/>
     </div>
   );
 };

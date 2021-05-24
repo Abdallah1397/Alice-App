@@ -26,7 +26,12 @@
     font-size: 30px;
     font-family: "Arial Narrow Bold";
     font-weight: bolder;
-
+    @include atSmallestScreen {
+      font-size: 20px;
+    }
+    @include atSmScreen {
+      font-size: 20px;
+    }
     @include atMdScreen {
       font-size: 30px;
       width: 100%;

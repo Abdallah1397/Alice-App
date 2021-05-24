@@ -6,7 +6,7 @@ const ObjectDetail = ({ id, image, title, about }) => {
       <div className="mb-5">
         <div key={id} >
           <div className="objectDetail__image-container">
-            <img className="objectDetail__image" src={image} />
+            <img className="objectDetail__image" width="200px" height="300px" src={image} />
           </div>
           <div className="objectDetail__container">
             <h3 className="objectDetail__container-title">{title}</h3>

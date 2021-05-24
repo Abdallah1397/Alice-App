@@ -43,8 +43,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-          </div>
-          <div className="site-header__icons">
+            <div className="site-header__icons">
             <ul className="site-header__icons-list">
               <li className="site-header__icons-item">
                 <FaBars className="site-header__toggle" 
@@ -53,6 +52,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          </div>
+        
         </nav>
       </div>
     </header>

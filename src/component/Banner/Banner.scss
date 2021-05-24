@@ -6,11 +6,23 @@
     background-size: contain;
     background-repeat: no-repeat;
     // background-attachment: fixed;
-    object-fit: contain;
-    @include atSmallestScreen{
-        min-height: 50vh;
-    }
+    object-fit: cover;
     @include atSmallestScreen{
         min-height: 20vh;
+    }
+    @include atSmScreen{
+        min-height: 40vh;
+
+    }
+    @include atMdScreen{
+        min-height: 50vh;
+
+    }
+    @include atLgScreen{
+        min-height: 65vh;
+    }
+    @include atXLScreen{
+        min-height: 70vh;
+
     }
 }

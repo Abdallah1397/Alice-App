@@ -22,10 +22,10 @@
     display: block;
     // width: 40%;
     @include atSmallestScreen {
-      width: 30%;
+      width: 20%;
     }
     @include atSmScreen {
-      width: 25%;
+      width: 20%;
     }
     @include atMdScreen {
       width: 15%;
@@ -123,6 +123,7 @@
     }
   }
   &__toggle {
+    font-size: 20px;
     @include atLgScreen {
       display: none;
     }
