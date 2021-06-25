@@ -24,98 +24,98 @@
     "bestsales": [
         {
             "id": 1,
-            "title": "Necklaees",
+            "title": "Family Necklace",
             "image": "/gallery/bestsales/9.jpg"
         },
         {
             "id": 2,
-            "title": "Necklaees",
+            "title": "Personalized keychain ",
             "image": "/gallery/bestsales/5.jpg"
         },
         {
             "id": 3,
-            "title": "Necklaees",
+            "title": "Car accessory of Agate stone",
             "image": "/gallery/bestsales/1.jpg"
         },
         {
             "id": 3,
-            "title": "Necklaees",
+            "title": "Gold Pisces Zodiac Necklace",
             "image": "/gallery/bestsales/4.jpg"
         }
     ],
     "ourWork": [
         {
             "id":1,
-            "image": "/gallery/Our Work/5.jpg",
-            "title": "title1",
+            "image": "/gallery/Our Work/18.jpg",
+            "title": "save the date",
             "categories_id": 1,
             "bestSales_id": 1
         },
         {
             "id": 2,
-            "image": "/gallery/Our Work/2.jpg",
-            "title": "title2",
+            "image": "/gallery/Our Work/10.jpg",
+            "title": "my love day medal",
             "categories_id": 1
         },
         {
             "id": 3,
-            "image": "/gallery/Our Work/3.jpg",
-            "title": "title3",
+            "image": "/gallery/Our Work/11.jpg",
+            "title": "Don’t be a memory",
             "categories_id": 1
         },
         {
             "id": 4,
             "image": "/gallery/Our Work/7.jpg",
-            "title": "titl4",
+            "title": "Personalized necklace",
             "categories_id": 1
         },
         {
             "id": 5,
             "image": "/gallery/Our Work/1.jpg",
-            "title": "title5",
+            "title": "thin gold necklace",
             "categories_id": 1
         },
         {
             "id": 6,
             "image": "/gallery/Our Work/6.jpg",
-            "title": "title6",
+            "title": "Car accessory of Agate stone",
             "categories_id": 1
         },
         {
             "id": 7,
-            "image": "/gallery/Our Work/11.jpg",
-            "title": "title7",
+            "image": "/gallery/Our Work/3.jpg",
+            "title": "Gold Pisces Zodiac Necklace",
             "categories_id": 1
         },
         {
             "id": 8,
-            "image": "/gallery/Our Work/10.jpg",
-            "title": "title8",
+            "image": "/gallery/Our Work/2.jpg",
+            "title": "great meaningful gift",
             "categories_id": 1
         },
         {
             "id": 9,
             "image": "/gallery/Our Work/9.jpg",
-            "title": "title9",
+            "title": "Drive Safe",
             "categories_id": 1
         },
         {
             "id": 10,
             "image": "/gallery/Our Work/4.jpg",
-            "title": "title10",
+            "title": "Don’t be a memory",
             "categories_id": 1,
             "bestSales_id": 1
         },
         {
             "id": 11,
             "image": "/gallery/Our Work/13.jpg",
-            "title": "title11",
+            "title": "Fashion necklaces",
             "categories_id": 1
         },
         {
             "id": 12,
             "image": "/gallery/Our Work/15.jpg",
-            "title": "title12",
+            "title": "you are mine",
             "categories_id": 1,
             "bestSales_id": 1
         },
@@ -128,31 +128,31 @@
         {
             "id": 14,
             "image": "/gallery/Our Work/14.jpg",
-            "title": "title14",
+            "title": "My flower",
             "categories_id": 1
         },
         {
             "id": 15,
             "image": "/gallery/Our Work/15.jpg",
-            "title": "title15",
+            "title": "my love date",
             "categories_id": 1
         },
         {
             "id": 16,
             "image": "/gallery/Our Work/16.jpg",
-            "title": "title16",
+            "title": "grand mother",
             "categories_id": 1
         },
         {
             "id": 17,
             "image": "/gallery/Our Work/17.jpg",
-            "title": "title17",
+            "title": "God save you",
             "categories_id": 1
         },
         {
             "id": 18,
-            "image": "/gallery/Our Work/18.jpg",
-            "title": "title18",
+            "image": "/gallery/Our Work/5.jpg",
+            "title": "Drive Safe",
             "categories_id": 1
         }
     ],

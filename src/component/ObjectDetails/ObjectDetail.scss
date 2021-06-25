@@ -4,13 +4,15 @@
 .objectDetail {
   width: 90%;
   position: relative;
+  border-radius:20px 20px;
+
+  box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
   @include atSmallestScreen{
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 5%;
+    width: 90%;
 
   }
   &:hover {
-  box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
   #title{
     display: block;
   }
@@ -19,16 +21,18 @@
     border: 1px solid $border-color;
     border-bottom: none;
     width: 100%;
+    border-radius: 20px;
+
+
 
   }
   &__image {
     display: block;
     min-height: 200px;
-    width: 90%;
+    object-fit: fill;
+    border-radius: 20px;
 
-
-    object-fit: contain;
-    margin: 0 auto;
+    // width:100%;
 
     @include atMdScreen {
       width: 100%;
