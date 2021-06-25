@@ -4,9 +4,8 @@
 .objectDetail {
   width: 90%;
   position: relative;
-  border-radius:20px 20px;
-
   box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
+
   @include atSmallestScreen{
     margin-left: 5%;
     width: 90%;
@@ -21,18 +20,13 @@
     border: 1px solid $border-color;
     border-bottom: none;
     width: 100%;
-    border-radius: 20px;
-
-
 
   }
   &__image {
     display: block;
     min-height: 200px;
-    object-fit: fill;
-    border-radius: 20px;
-
-    // width:100%;
+    object-fit: contain;
+    width: 100%;
 
     @include atMdScreen {
       width: 100%;
@@ -41,11 +35,11 @@
   &__container {
     display: none;
     position: absolute;
-    background-color: $golden-color;
-    height: 30px;
+    background-color:$main-black;
     left: 0;
     bottom:0;
     width: 100%;   
+    opacity: .75;
 
   }
  

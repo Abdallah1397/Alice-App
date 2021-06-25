@@ -57,8 +57,9 @@
         background-color: $background-color;
         z-index: 1;
         min-height: 100vh;
-        padding-left: 40%;
         padding-top: 10%;
+        text-align: center;
+
         // transition: ease 1s all;
       }
       @include atSmScreen {
@@ -72,8 +73,9 @@
         background-color: $background-color;
         z-index: 1;
         min-height: 100vh;
-        padding-left: 50%;
         padding-top: 10%;
+        text-align: center;
+
         transition: ease 1s all;
       }
 
@@ -84,13 +86,14 @@
   }
   &__link {
     display: inline-block;
-    padding: 16px;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bolder;
     color: $main-black;
-    width: 120px;
     text-transform: uppercase;
     text-decoration: none;
+    width: 140px;
+    margin-top: 2rem;
+
 
     &:hover {
       text-decoration: none;

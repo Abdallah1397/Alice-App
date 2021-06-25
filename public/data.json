@@ -47,20 +47,20 @@
         {
             "id":1,
             "image": "/gallery/Our Work/18.jpg",
-            "title": "save the date",
+            "title": "Drive safe",
             "categories_id": 1,
             "bestSales_id": 1
         },
         {
             "id": 2,
             "image": "/gallery/Our Work/10.jpg",
-            "title": "my love day medal",
+            "title": "Special Gift",
             "categories_id": 1
         },
         {
             "id": 3,
             "image": "/gallery/Our Work/11.jpg",
-            "title": "Don’t be a memory",
+            "title": "Gold Pisces Zodiac Necklace",
             "categories_id": 1
         },
         {
@@ -84,7 +84,7 @@
         {
             "id": 7,
             "image": "/gallery/Our Work/3.jpg",
-            "title": "Gold Pisces Zodiac Necklace",
+            "title": "Dont't be a memory",
             "categories_id": 1
         },
         {
@@ -122,7 +122,7 @@
         {
             "id": 13,
             "image": "/gallery/Our Work/8.jpg",
-            "title": "title13",
+            "title": "only brightness",
             "categories_id": 1
         },
         {
@@ -134,7 +134,7 @@
         {
             "id": 15,
             "image": "/gallery/Our Work/15.jpg",
-            "title": "my love date",
+            "title": "you are mine",
             "categories_id": 1
         },
         {
@@ -152,7 +152,7 @@
         {
             "id": 18,
             "image": "/gallery/Our Work/5.jpg",
-            "title": "Drive Safe",
+            "title": "safe the date",
             "categories_id": 1
         }
     ],

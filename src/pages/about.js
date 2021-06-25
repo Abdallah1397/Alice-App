@@ -20,8 +20,7 @@ const About = () => {
       “need it now” jewellery is what we do, our purpose is why we do it. So
       our destination is not necessarily where we are today, but a guiding
       star for where we want to go." />
-      <Title title="You Can Order"/>
-      <Condtions />
+   
       <Hero title="Alice Accessories"/>
     </div>
   );
