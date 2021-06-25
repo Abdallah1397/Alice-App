@@ -10,7 +10,6 @@ import Condtions from "../component/Condttions/condtiond";
 const About = () => {
   return (
     <div >
-      <Banner image={aboutCover} /> 
       <Content title="Who We Are"
       topic="We believe that beauty and confidence come from within. What you wear
       on the outside is just a way to add to that beauty and confidence and

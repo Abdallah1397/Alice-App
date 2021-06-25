@@ -7,6 +7,8 @@ import About from "../pages/about";
 import OurWork from '../pages/ourWork';
 import { FaArrowCircleUp } from "react-icons/fa";
 import ScrollToTop from "../utils/scrollToTop";
+import SliderBanner from '../component/SliderBanner/sliderBanner';
+
 
 const All_PAGES = () => {
   // state to scrollTop arrow
@@ -28,6 +30,8 @@ const All_PAGES = () => {
       <div>
         <ScrollToTop />
         <Navbar />
+        <SliderBanner />
+
         <Route exact path="/" component={Home} />
         <Route exact path="/work" component={OurWork} />
         <Route exact path="/about" component={About} />

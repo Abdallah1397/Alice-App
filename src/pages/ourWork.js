@@ -29,13 +29,12 @@ const OurWork = ({ourwork,getOurWork}) => {
    const displayAllWork=currentPageData.map(item=>{
     return(
       <div className="col-md-4 col-12 mt-md-5">
-      <ObjectDetail image={item.image} key={item.id} />
+      <ObjectDetail image={item.image} title={item.title} key={item.id} />
       </div>
     )
   })
   return (
     <div>
-      <Banner image={cover} />
       <Title
         title="OUR Work"
       />

@@ -3,6 +3,7 @@
 
 .objectDetail {
   width: 90%;
+  position: relative;
   @include atSmallestScreen{
     margin-left: 15%;
     width: 70%;
@@ -10,6 +11,9 @@
   }
   &:hover {
   box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
+  #title{
+    display: block;
+  }
   }
   &__image-container {
     border: 1px solid $border-color;
@@ -22,6 +26,7 @@
     min-height: 200px;
     width: 90%;
 
+
     object-fit: contain;
     margin: 0 auto;
 
@@ -30,20 +35,24 @@
     }
   }
   &__container {
-    border: 1px solid $border-color;
-    border-top: none;
+    display: none;
+    position: absolute;
+    background-color: $golden-color;
+    height: 30px;
+    left: 0;
+    bottom:0;
+    width: 100%;   
 
   }
  
   &__container-title {
     text-align: center;
-    font-weight: 400;
+    font-weight: bolder;
+    align-items: center;
     font-size: 20px;
-    color: $main-black;
+    color: $main-white;
+    text-transform: uppercase;
+    font-family: "Arial Narrow Bold";
   }
-  &__container-about {
-    font-size: 12px;
-    text-align: center;
 
-  }
 }

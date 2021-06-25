@@ -19,10 +19,7 @@
 
     }
     @include atLgScreen{
-        min-height: 65vh;
+        min-height: 55vh;
     }
-    @include atXLScreen{
-        min-height: 70vh;
 
-    }
 }

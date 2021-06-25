@@ -10,7 +10,6 @@ import Title from "../component/Title/Title";
 import ObjectDetail from "../component/ObjectDetails/ObjectDetail";
 import MostWork from "../component/Sliders/workSlider";
 
-
 const Home = ({ categories, getCategories,bestsales,getBestSales }) => {
   useEffect(() => {
     getCategories();
@@ -29,13 +28,12 @@ const Home = ({ categories, getCategories,bestsales,getBestSales }) => {
   const bestSalesDisplay = bestsales.map((item) => {
     return (
       <div className="col-md-3 col-12 mt-md-5">
-        {bestsales ? <ObjectDetail image={item.image} key={item.id} /> : ""}
+        {bestsales ? <ObjectDetail image={item.image} title={item.title} key={item.id} /> : ""}
       </div>
     );
   });
   return (
     <div>
-      <Banner image={cover} />
       <Content
         title="ALLOW EVERY TO SHINE IN STYLE"
         topic=" We believe that beauty and confidence come from within. What you wear
